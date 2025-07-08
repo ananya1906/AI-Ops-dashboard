@@ -32,7 +32,6 @@ The goal is to simulate a real-world observability and monitoring pipeline—com
 
 ---
 
-## Getting Started
 
 ### 1. Clone the repository
 
@@ -74,15 +73,15 @@ Once logged in:
 
 2. Create a dashboard with panels using queries such as:
 
--process_cpu_seconds_total
+- process_cpu_seconds_total
 
--process_resident_memory_bytes
+- process_resident_memory_bytes
 
--nodejs_eventloop_lag_seconds
+- nodejs_eventloop_lag_seconds
 
 These queries reflect real-time CPU usage, memory consumption, and event loop performance of the Node.js service.
 
-###Conclusion
+### Conclusion
 
 This project replicates the foundational infrastructure of AIOps (Artificial Intelligence for IT Operations). Although it doesn't yet include AI/ML models, it demonstrates how operational data is collected and centralized for real-time analysis. The system can be easily extended to add automated alerts, anomaly detection, or predictive analytics.
 
