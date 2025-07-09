@@ -74,10 +74,15 @@ Once logged in:
 2. Create a dashboard with panels using queries such as:
 
 - process_cpu_seconds_total
+![image](https://github.com/user-attachments/assets/d5135fe0-5fd6-422f-b729-ccd38b0828cb)
+
 
 - process_resident_memory_bytes
+![image](https://github.com/user-attachments/assets/ff96d9e2-00dd-4e35-b038-fe2048ef4630)
 
 - nodejs_eventloop_lag_seconds
+  ![image](https://github.com/user-attachments/assets/14b5047e-673b-4046-b222-f567a400b94b)
+
 
 These queries reflect real-time CPU usage, memory consumption, and event loop performance of the Node.js service.
 
